@@ -10,10 +10,13 @@ import Resources
 
 struct AppetizerView: View {
     var body: some View {
-      VStack {
-        Text("Appetizer List")
-          .bold()
-          .foregroundColor(.apColors.brandPrimary.asColor)          
+      NavigationView {
+        VStack {
+          Text("Appetizer List")
+            .bold()
+            .foregroundColor(.apColors.brandPrimary.asColor)
+        }
+        .navigationTitle("🍟 Appetizers")
       }
       
     }

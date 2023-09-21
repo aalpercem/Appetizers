@@ -29,6 +29,7 @@ struct AppetizerTabView: View {
         }
     }
     .padding()
+    .tint(.apColors.brandPrimary.asColor)
   }
 }
 

@@ -9,9 +9,14 @@ import SwiftUI
 
 struct OrderView: View {
   var body: some View {
-    Text("Order")
-      .bold()
-      .foregroundColor(.apColors.brandPrimary.asColor)    
+    NavigationView {
+      VStack {
+        Text("Orders")
+          .bold()
+          .foregroundColor(.apColors.brandPrimary.asColor)
+      }
+      .navigationTitle("🧾 Orders")
+    }
   }
 }
 
