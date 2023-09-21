@@ -6,10 +6,16 @@
 //
 
 import SwiftUI
+import Resources
 
 struct AppetizerView: View {
     var body: some View {
+      VStack {
         Text("Appetizer List")
+          .bold()
+          .foregroundColor(.apColors.brandPrimary.asColor)          
+      }
+      
     }
 }
 

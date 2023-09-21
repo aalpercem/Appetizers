@@ -8,11 +8,13 @@
 import SwiftUI
 
 struct OrderView: View {
-    var body: some View {
-        Text("Order")
-    }
+  var body: some View {
+    Text("Order")
+      .bold()
+      .foregroundColor(.apColors.brandPrimary.asColor)    
+  }
 }
 
 #Preview {
-    OrderView()
+  OrderView()
 }

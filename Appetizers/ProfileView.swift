@@ -8,11 +8,13 @@
 import SwiftUI
 
 struct ProfileView: View {
-    var body: some View {
-        Text("Profile")
-    }
+  var body: some View {
+    Text("Profile")
+      .bold()
+      .foregroundColor(.apColors.brandPrimary.asColor)
+  }
 }
 
 #Preview {
-    ProfileView()
+  ProfileView()
 }
