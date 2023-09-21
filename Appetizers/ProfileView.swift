@@ -6,13 +6,14 @@
 //
 
 import SwiftUI
+import Resources
 
 struct ProfileView: View {
   var body: some View {
     NavigationView {
       VStack {
         Text("Profile")
-          .bold()
+          .font(APFonts.rubik.bold18.asFont)
           .foregroundColor(.apColors.brandPrimary.asColor)
       }
       .navigationTitle("👤 Profile")

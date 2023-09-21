@@ -13,7 +13,7 @@ struct AppetizerView: View {
       NavigationView {
         VStack {
           Text("Appetizer List")
-            .bold()
+            .font(APFonts.rubik.bold18.asFont)
             .foregroundColor(.apColors.brandPrimary.asColor)
         }
         .navigationTitle("🍟 Appetizers")

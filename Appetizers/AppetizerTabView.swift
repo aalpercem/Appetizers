@@ -6,7 +6,9 @@
 //
 
 import SwiftUI
+import Resources
 
+// TODO: Might need to rename as a root page
 struct AppetizerTabView: View {
   var body: some View {
     TabView {
