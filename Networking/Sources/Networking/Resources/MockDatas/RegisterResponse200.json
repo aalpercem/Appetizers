@@ -1,0 +1,5 @@
+{
+    "nextStep": "Otp Verify",
+    "otpExpireTime": "180",
+    "showCaptcha": "false"
+}

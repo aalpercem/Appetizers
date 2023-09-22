@@ -21,6 +21,7 @@
 		859503762ABC723A00710DCD /* Rubik-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 859503702ABC723A00710DCD /* Rubik-Regular.ttf */; };
 		859503772ABC723A00710DCD /* Rubik-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 859503712ABC723A00710DCD /* Rubik-Medium.ttf */; };
 		8595037B2ABC72F700710DCD /* Resources in Frameworks */ = {isa = PBXBuildFile; productRef = 8595037A2ABC72F700710DCD /* Resources */; };
+		8595037E2ABD775300710DCD /* Networking in Frameworks */ = {isa = PBXBuildFile; productRef = 8595037D2ABD775300710DCD /* Networking */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -41,6 +42,7 @@
 		859503702ABC723A00710DCD /* Rubik-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Rubik-Regular.ttf"; sourceTree = "<group>"; };
 		859503712ABC723A00710DCD /* Rubik-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Rubik-Medium.ttf"; sourceTree = "<group>"; };
 		859503782ABC724600710DCD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		8595037C2ABD773200710DCD /* Networking */ = {isa = PBXFileReference; lastKnownFileType = wrapper; path = Networking; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -48,6 +50,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8595037E2ABD775300710DCD /* Networking in Frameworks */,
 				8595037B2ABC72F700710DCD /* Resources in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -101,6 +104,7 @@
 		8595035D2ABC6CE400710DCD /* Packages */ = {
 			isa = PBXGroup;
 			children = (
+				8595037C2ABD773200710DCD /* Networking */,
 				8595035C2ABC6CD500710DCD /* Resources */,
 			);
 			name = Packages;
@@ -152,6 +156,7 @@
 			name = Appetizers;
 			packageProductDependencies = (
 				8595037A2ABC72F700710DCD /* Resources */,
+				8595037D2ABD775300710DCD /* Networking */,
 			);
 			productName = Appetizers;
 			productReference = 85294C8E2ABC37200093EF26 /* Appetizers.app */;
@@ -443,6 +448,10 @@
 		8595037A2ABC72F700710DCD /* Resources */ = {
 			isa = XCSwiftPackageProductDependency;
 			productName = Resources;
+		};
+		8595037D2ABD775300710DCD /* Networking */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = Networking;
 		};
 /* End XCSwiftPackageProductDependency section */
 	};
