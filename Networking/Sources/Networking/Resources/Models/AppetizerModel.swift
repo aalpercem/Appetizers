@@ -8,7 +8,7 @@
 import Foundation
 
 struct Appetizer: Decodable {
-  let id: String
+  let id: Int
   let name: String
   let decsription: String
   let price: Double
@@ -24,11 +24,11 @@ struct AppetizerResponseDTO {
 
 struct MockData {
   static let sampleAppetizer = Appetizer(
-    id: 1,
+    id: 0001,
     name: "Hot Dog",
     decsription: "This is the description for my appetizer. Its yummy btw.",
     price: 9.99,
-    mageURL: "",
+    imageURL: "",
     calories: 280,
     protein: 67,
     carbs: 34
