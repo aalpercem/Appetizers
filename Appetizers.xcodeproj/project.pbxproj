@@ -79,16 +79,12 @@
 		85294C902ABC37200093EF26 /* Appetizers */ = {
 			isa = PBXGroup;
 			children = (
-				859503782ABC724600710DCD /* Info.plist */,
+				85A92A082AC1AE18009E708E /* App */,
 				8595036A2ABC71BF00710DCD /* Resources */,
-				85294C912ABC37200093EF26 /* AppetizersApp.swift */,
-				85294C932ABC37200093EF26 /* AppetizerTabView.swift */,
-				85294C952ABC37210093EF26 /* Assets.xcassets */,
+				85A92A062AC1ADF2009E708E /* Pages */,
 				85294C972ABC37210093EF26 /* Appetizers.entitlements */,
 				85294C982ABC37210093EF26 /* Preview Content */,
-				859503562ABC6B7500710DCD /* AppetizerView.swift */,
-				859503582ABC6B8600710DCD /* ProfileView.swift */,
-				8595035A2ABC6B9700710DCD /* OrderView.swift */,
+				85A92A052AC1AD8F009E708E /* Supporting Files */,
 			);
 			path = Appetizers;
 			sourceTree = "<group>";
@@ -113,6 +109,7 @@
 		8595036A2ABC71BF00710DCD /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				85294C952ABC37210093EF26 /* Assets.xcassets */,
 				8595036B2ABC71C500710DCD /* Fonts */,
 			);
 			path = Resources;
@@ -136,6 +133,41 @@
 			children = (
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		85A92A052AC1AD8F009E708E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				859503782ABC724600710DCD /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		85A92A062AC1ADF2009E708E /* Pages */ = {
+			isa = PBXGroup;
+			children = (
+				85A92A072AC1AE0A009E708E /* RootPage */,
+				859503562ABC6B7500710DCD /* AppetizerView.swift */,
+				859503582ABC6B8600710DCD /* ProfileView.swift */,
+				8595035A2ABC6B9700710DCD /* OrderView.swift */,
+			);
+			path = Pages;
+			sourceTree = "<group>";
+		};
+		85A92A072AC1AE0A009E708E /* RootPage */ = {
+			isa = PBXGroup;
+			children = (
+				85294C932ABC37200093EF26 /* AppetizerTabView.swift */,
+			);
+			path = RootPage;
+			sourceTree = "<group>";
+		};
+		85A92A082AC1AE18009E708E /* App */ = {
+			isa = PBXGroup;
+			children = (
+				85294C912ABC37200093EF26 /* AppetizersApp.swift */,
+			);
+			path = App;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
