@@ -9,18 +9,15 @@ import SwiftUI
 import Resources
 
 struct AppetizerView: View {
-    var body: some View {
-      NavigationView {
-        VStack {
-          Image.catalog.mockAppetizer.asImage
-          Text("Appetizer List")
-            .font(APFonts.rubik.bold18.asFont)
-            .foregroundColor(.apColors.brandPrimary.asColor)
-        }
-        .navigationTitle("🍟 Appetizers")
+  var body: some View {
+    NavigationView {
+      List(AppetizerUIModel.mockAppetizerList) { appetizer in
+        AppetizerListCell(appetizer: appetizer)
       }
-      
+      .listStyle(.plain)
+      .navigationTitle("🍟 Appetizers")
     }
+  }
 }
 
 #Preview {
